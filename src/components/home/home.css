@@ -1,0 +1,59 @@
+body{
+ background:url('https://killervisualstrategies.com/wp-content/uploads/2019/08/BlogHeader_Motion.jpg');
+ background-size: cover;
+ z-index:-1; 
+}
+.content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index:99;
+    width:26%;height:46vh;
+    padding:1%;
+    background: rgb(208, 136, 255);
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.settings{
+   width:100%;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+
+.banner{
+    width:55%;
+    align-items: center;
+    display: flex;
+}
+
+.settingsselect{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    margin-top:20px;
+    width:50%;
+    align-self: center;
+    
+}
+
+@media (max-width:800px){
+    .content{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .settings{
+        width:100%;
+    }
+    .banner{
+        width:100%;
+        padding-top:20px;
+    }
+}
+.settingsselect{
+    display: flex;
+    flex-direction: column-reverse;
+}
