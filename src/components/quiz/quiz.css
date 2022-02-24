@@ -25,6 +25,10 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     justify-content:center;
     align-items: center;
 }
+.option:hover{
+    background-color: antiquewhite;
+}
+
 .questionSection{
     background:rgb(180, 114, 255);
     display: flex;
@@ -44,6 +48,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     border-radius:20px;
     border:none;
 }
+
 .actionbuttons{
     display: flex;
     align-items: center;
