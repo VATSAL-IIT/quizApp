@@ -10,9 +10,9 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     display:flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width:100%;
-    font-size: large;
+    color:antiquewhite;
     padding:1%;
     text-align: center;
 
@@ -30,7 +30,9 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 
 .questionSection{
-    background:rgb(180, 114, 255);
+    background:url('https://imgs.search.brave.com/bd4NvDmYIMTmGwGMW03xlKkPgKtiIPCIVJVYVMK8peU/rs:fit:1023:682:1/g:ce/aHR0cHM6Ly9zdDMu/ZGVwb3NpdHBob3Rv/cy5jb20vMzAwMzQ0/OS8xODcyMi9pLzk1/MC9kZXBvc2l0cGhv/dG9zXzE4NzIyMTY3/NC1zdG9jay1waG90/by1jb2xvcmZ1bC1x/dWVzdGlvbi1tYXJr/cy1mcmFtZS1iYWNr/Z3JvdW5kLmpwZw');
+    background-size:cover;
+    background-position:fixed;
     display: flex;
     width:40vw;
     flex-direction: column;
@@ -73,4 +75,17 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     border:none;
     background: red;
     cursor:pointer;
+}
+
+.scoresection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80vh;
+    width:60vw;
+    border:solid black 2px;
+    border-radius:50px;
+    margin-top:30px;
+    background:url('https://thumbs.dreamstime.com/z/result-word-built-letter-cubes-newspaper-background-58586553.jpg');
+    background-size:cover;
 }

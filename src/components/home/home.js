@@ -27,7 +27,7 @@ const Home = (props) => {
   <>
   <div className="content">
       <div className="settings">
-          <span style={{color:"white"}}>Quiz Settings</span>
+          <h2>Quiz Settings</h2>
       </div>
       <div className="settingsselect">
         {error && <ErrorMessage></ErrorMessage>}
@@ -45,6 +45,7 @@ const Home = (props) => {
           <MenuItem label="Medium" value="medium">Medium</MenuItem>
           <MenuItem label="Hard" value="hard">Hard</MenuItem>
         </TextField>
+        <br/>
         <Button variant="contained" color="primary" onClick={handlesubmit}>Start Quiz</Button>
       </div>
      

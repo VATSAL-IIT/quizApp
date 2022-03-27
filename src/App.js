@@ -19,8 +19,6 @@ function App() {
        const {data}=await axios(`https://opentdb.com/api.php?amount=10&category=${category}&difficulty=${difficulty}&type=multiple`);
        setQuestions(data.results);
     }
-    
-    
   return (
     <BrowserRouter>
      <div className="App">

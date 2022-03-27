@@ -44,7 +44,7 @@ const Quiz = (props) => {
   }
   return (
     <div className='quiz'>
-      <span className="subtitle">Welcome ,{name}</span>
+      <h1 className="subtitle">Welcome ,{name}</h1>
       {!showScore && currentQuestion<10 && 
         <div className="questionSection">
           <div className="question">
@@ -76,7 +76,7 @@ const Quiz = (props) => {
       {
         (showScore || currentQuestion>9) &&
         <div className="scoresection">
-          <h1 style={{color:"blue"}}>Thanks for Participating.Your Total Score is {score}</h1>
+          <h2>Thanks for participating.Your overall score is {score}</h2>
         </div>
       }
     </div>
